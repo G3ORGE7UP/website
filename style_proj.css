@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "BebasNeue-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("BebasNeue"),
+        url("fonts/BebasNeue-Regular.ttf") format("truetype");
+  }
+
+@font-face{
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Montserrat-Bold"),
+
+        url("fonts/Montserrat-Bold.ttf") format("truetype");  
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Montserrat-Regular"),
+
+        url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+
+
+body{
+    height: 100vh;
+
+
+}
+div.content{
+background: url("bg/bg_2.svg");
+background-size: cover  ;
+background-repeat: no-repeat;
+height: max-content;
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+
+}
+div.block1{
+
+}
+div.navbear{
+/* Rectangle 56 */
+display: flex;
+flex-direction: row;
+font-family: 'Montserrat-Bold';
+background: rgba(255, 255, 255, 0.6);
+font-size: 24px;
+height: 90px;
+
+a{
+    text-decoration: none;
+    /* Главная */
+
+color: #00646F;
+    
+
+    
+}
+div.menu-block{
+    position: relative;
+    top: 30px;
+    left: 36px;
+    a.projects{
+        color: #00A37C;
+    }
+}
+}
+h1.logo{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 19px;
+    left: 22px;
+    color: #00646F;
+
+}
+h1#title{
+    /* МОИ ПРОЕКТЫ */
+
+position: relative;
+margin-left: auto;
+margin-right: auto;
+top: 169px; 
+left: 184px;
+
+font-family: 'Montserrat-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+
+
+background: linear-gradient(180deg, #FFFFFF 27.18%, #4ECC7C 103.18%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-transform: uppercase;
+
+
+
+
+}
+div.bento_box{
+    width: 1011px;
+    height: 485px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 212px;
+    top: 285px;
+    
+    div.block1{
+        display: block;
+        width: 485px;
+        height: 485px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+        border: #ffffff4f 1px solid;
+
+        img.aerology_glyph{
+            position: relative;
+                top: 170px;
+                left: 170px;
+        }
+        h3#aerology{
+            position: relative;
+            
+            bottom: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 20px;
+        }
+
+    }
+    div.block2{
+        display: block;
+        width: 485px;
+        height: 485px;
+        background: rgba(255, 255, 255, 0.6);
+        float: left;
+        padding: 4px;
+        border: #ffffff4f 1px solid;
+
+        h3#golumpia{
+            position: relative;
+            
+            top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 20px;
+        }
+
+        img.golumpia{
+            position: relative;
+            top: 170px;
+            left: 170px;
+        }
+
+
+    }
+    div.block3{
+        display: flex;
+        flex-direction: column;
+        width: 485px;
+        height: 222px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 4px;
+        border: #ffffff4f 1px solid;
+
+        h3#se7entomo{
+            top: 30px;
+        }
+
+
+    }
+    div.block1, div.block2, div.block3{
+        border-radius: 16px;
+        margin: 27px;
+    }
+
+ 
+
+    a{
+        text-decoration: none;
+        color: #00646F;
+        
+    }
+    h3{
+        font-family: 'Montserrat-Bold', Arial, sans-serif;
+    }
+}

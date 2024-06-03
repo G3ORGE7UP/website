@@ -1,0 +1,644 @@
+@font-face {
+    font-family: "BebasNeue-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("BebasNeue"),
+        url("fonts/BebasNeue-Regular.ttf") format("truetype");
+  }
+
+@font-face{
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Montserrat-Bold"),
+
+        url("fonts/Montserrat-Bold.ttf") format("truetype");  
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Montserrat-Regular"),
+
+        url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+body{
+    animation: appear-block 1s linear normal;
+    background-color: #181818;
+    overflow-x: hidden;
+    cursor: url(img/cursor.svg) 2 2, default;
+}
+
+.button, .button1{
+    position: relative;
+    width: 487px;   
+    height: 84px;
+    margin-bottom: 12px;
+    padding: 10px;
+    
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    background: rgb(138,145,169);
+    background: linear-gradient(180deg, rgba(138,145,169,1) 0%, rgba(47,63,107,1) 50%, rgba(11,33,85,1) 50%, rgba(130,221,238,1) 100%);
+    border-radius: 16px;
+    flex:content;
+    flex-direction: column;
+    
+    text-shadow: #181818 ;
+    position: relative;
+    border: rgba(255, 255, 255, 0.30) 2px solid;
+    left: 167px;
+    line-height: 75px;
+       
+    /* btn text */
+
+
+font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button#1{
+    position: relative;
+    width: 487px;
+    height: 84px;
+    margin-bottom: 12px;
+    top: 12px;
+    
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    background: rgb(138,145,169);
+    background: linear-gradient(180deg, rgba(138,145,169,1) 0%, rgba(47,63,107,1) 50%, rgba(11,33,85,1) 50%, rgba(130,221,238,1) 100%);
+    border-radius: 16px;
+    flex:content;
+    flex-direction: column;
+    line-height: 0%;
+    text-shadow: #181818 ;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: rgba(255, 255, 255, 0.30) 2px solid;
+    left: 167px;
+    padding: 4px;
+       
+    /* btn text */
+
+
+font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header{
+    height: 1000px;
+    text-align: center;
+    position: relative;
+    background-image: url("bg/bg1.png");
+    color: white;
+    /* Frame 3 */
+
+position: relative;
+width: 100%;
+height: 751px;
+left: 0px;
+top: 59px;
+
+
+
+}
+div#1{
+    position: relative;
+    align-content: center;
+    font-size: 20px;
+}
+div.tiles{
+    position: inherit;
+    flex: auto;
+    flex-direction: row;
+    float: left;
+      
+}
+div.net_icon_block{
+    display: block;
+    position: relative;
+    left: 29px;    
+}
+div.net_icon1, div.net_icon2, div.net_icon3, div.net_icon4{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 300px;
+    margin-top: 14px;
+    margin-left: 9px;
+    
+    /* Ellipse 17 */
+
+
+background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
+box-shadow: inset 0px 1px 0px 1px rgba(0, 0, 0, 0.34);
+
+
+}
+div.statusbr{
+position: absolute;
+width: 100%;
+height: 60px;
+left: 0px;
+top: 0px;
+color: #FFFFFF;
+background-image: linear-gradient(180deg, #A9A9A9 0%, #484848 45%, #0B0B0B 45%, #000000 76%, #434343 100%);
+background: linear-gradient(180deg, #9F9F9F 0%, #484848 45%, #000000 48%, #616161 100%);
+
+
+}
+h3.title{
+    position: relative;
+    color: #FFFFFF;
+    margin-left: 34px;
+    top: 10px;
+    left: 42px;
+    width: 400px;
+    /* THE HOME OF... */
+
+font-family: 'Montserrat-Bold';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.01em;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+img.logo{
+
+    position: relative;
+    width: 570px;
+    height: 570px;
+    opacity: 51%;
+   top: 62px;
+    z-index: 0;
+    
+    
+    }
+div.line1{
+    color: white;
+    background-color: #000000;
+    text-align: center;
+position: relative;
+height: 112px;
+width: 100%;
+border:#000000 3px solid;
+border: #434343 2px solid;
+font-family: 'BebasNeue-Regular', sans-serif;
+font-size: 64px;
+text-align: center;
+
+background: linear-gradient(180deg, #575757 0%, #484848 45%, #0B0B0B 45.01%, #000000 75.85%, #434343 100%);
+display:flex;
+flex-wrap: nowrap;
+white-space: nowrap;
+min-width: 100%;
+overflow: hidden;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+section.col{
+    animation: slide-left 20s linear infinite;
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    .promo_words{
+        display: flex;
+        margin: 3px;
+       
+    }
+    
+}
+
+div.card-body p.card-text{
+    position: flex;
+    flex-direction: row;
+    float: left;
+    padding: 12px;
+}
+div.projects{
+
+
+position: relative;
+width: 100%;
+height: 651px;
+
+border: 7px solid rgba(255, 255, 255, 0.12);
+background-color: #181818;
+color: white;
+animation: appear-block 1s linear normal;
+
+}
+div.projects:hover{
+    background: radial-gradient(101.66% 101.66% at 50% -1.66%, #171717 0%, #005567 100%);
+-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+div.gallery:hover{
+    /* Rectangle 50 */
+
+background: radial-gradient(101.66% 101.66% at 50% -1.66%, #171717 0%, #005567 100%);
+-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+
+div.gallery{
+
+display: block;
+position: relative;
+
+height: 1000px;
+
+border: 7px solid rgba(255, 255, 255, 0.12);
+background-color: #181818;
+color: white;
+animation: appear-block 1s linear normal;
+-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+
+
+div.gallery1{
+    position: relative;
+    background-image: url(img/Artboard@4x.png);
+    background-repeat: no-repeat;
+    width: 533px;
+    height: 295px;
+    background-size: cover;
+    margin-right: 12px;
+
+    /* slide1 */
+
+border: 7px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+
+}
+
+
+div.gallery2{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 533px;
+    height: 295px;
+    margin-left: 12 px;
+    /* slide1 */
+
+border: 7px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+background-image: url(img/G3OS6.png);
+}
+
+}
+
+div.gal_preview{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 90px;
+    left: 74px;
+}
+
+div.links{
+display: block;
+
+position: relative;
+-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+            animation: gradient 1s linear normal;
+
+width: 100%;
+height: 1000px;
+
+border: 7px solid rgba(255, 255, 255, 0.12);
+background-color: #181818;
+color: white;
+
+}
+div.links:hover{
+    background: radial-gradient(101.66% 101.66% at 50% -1.66%, #171717 0%, #005567 100%);
+-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+footer, div.card-footer, div.card-body{
+    /* Rectangle 51 */
+
+position: relative;
+height: 158px;
+
+
+background: linear-gradient(180deg, #9F9F9F 0%, #484848 45%, #000000 48%, #616161 100%);
+color: white;
+
+}
+
+
+button{
+    /* btn text */
+
+position: absolute;
+width: 223.68px;
+height: 38px;
+left: 160.25px;
+top: 2195px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 4px;
+}
+div.black-box{
+display: block;
+    background: linear-gradient(180deg, #9F9F9F 0%, #484848 45%, #000000 48%, #616161 100%);
+/* Rectangle 47 */
+
+position: relative;
+left: 106px;
+border: #727272 2px solid;
+align-content: center;
+width: 1000px;
+height: 330px;
+background: linear-gradient(180deg, #575757 0%, #484848 17.49%, #0B0B0B 17.5%, #000000 75.85%, #434343 100%);
+border-radius: 16px;    
+top: 88px;
+}
+
+
+
+h3.logo7{
+    position: relative;
+    left: 994px;
+    font-size: 60px;
+    font-family: 'Montserrat-Bold';
+    width: 433px;   
+    bottom: 24px;  
+}
+.aerology_logo{
+    position: relative;
+    width: 90%;
+    margin-top: 62px;
+}
+a.foot{
+    color: white;
+    font-size: 48px;
+    text-decoration: none;
+    font-family: 'Montserrat-Regular';
+    margin-right: 75px;
+    
+}
+
+a.links{
+    position: relative;
+    width: 95%;
+    margin-bottom: 12px;
+
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    background: rgb(138,145,169);
+    background: linear-gradient(180deg, rgba(138,145,169,1) 0%, rgba(47,63,107,1) 50%, rgba(11,33,85,1) 50%, rgba(130,221,238,1) 100%);
+    border-radius: 16px;
+    flex:content;
+    flex-direction: column;
+    padding: 8px;
+    text-shadow: #181818 ;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: rgba(255, 255, 255, 0.30) 2px solid;
+    padding-left: 50px;
+    /* btn text */
+
+
+font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+a.links:hover{
+    -webkit-filter: brightness(125%);
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+a.links:active{
+    -webkit-filter: brightness(20%);
+    -webkit-filter: saturate(120%);
+}
+
+
+h1.logo-main{
+    position: relative;
+    font-size: 128px;
+    bottom: 322px;
+}
+
+h1{
+    font-family: 'Montserrat-Bold';
+}
+
+h1.proj, h1.gal, h1.lin{
+    font-size: 96px;
+    position: relative;
+    margin-left: 67px;
+    margin-top: 83px;
+}
+
+
+div.layer{
+    position: relative;
+    top: 23px;
+    bottom: 38px;
+    left: 23px;
+}
+div.menu{
+    display: block;
+    position: relative;
+    left: 59px;
+    top: 47px;
+    width: 818px;
+}
+div.card-footer{
+    width: 100%;
+}
+div.card-body{
+    display: flex;
+flex-direction: row;
+}
+
+@keyframes slide-left {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+
+
+div.button_proj{
+    width: 487px;
+    height: 84px;
+    .button{
+        position: relative;
+        margin-top  : 23px;
+            left: 100px;
+        
+    
+    }
+}
+
+.button_proj::before{
+    background-image: url(img/btn_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    width: 487px;
+    height: 84px;
+
+}
+a.links::before, a.button::before a.button1::before{
+    background-image: url(img/btn_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    left: 50px;
+    width: 45px;
+    height: 45px;
+
+    content: url(img/btn_icon.png);
+}
+a.button1{
+    position: relative;
+    top: 200px;
+    padding-left: 50px;
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+a.button1:hover{
+    -webkit-filter: brightness(125%);
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+a.button{
+    position: relative; 
+    padding-left: 50px;
+    webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+a.button:hover{
+    -webkit-filter: brightness(125%);
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+@keyframes appear-block{
+    from{
+        opacity: 0%;
+    }
+    
+    to{
+        opacity: 100%;
+    }
+}
+
+@keyframes gradient{
+    from{
+
+    }
+    to{
+        background: radial-gradient(101.66% 101.66% at 50% -1.66%, #171717 0%, #005567 100%);
+
+    }
+}
+
+div.net_icon1{
+    animation: appear-block 1s linear normal;
+
+}
+div.net_icon2{
+    animation: appear-block 1.5s linear normal;
+
+}
+div.net_icon3{
+    animation: appear-block 2s linear normal;
+
+}
+div.net_icon4{
+    animation: appear-block 2.5s linear normal;
+
+}
+h1.logo-main{
+    animation: appear-block 5s linear normal;
+
+}
+h3.title{
+    animation: appear-block 3.5s linear normal;
+
+}
